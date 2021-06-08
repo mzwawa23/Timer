@@ -1,7 +1,7 @@
 
 /*
  * driver class to test the timer.
- */
+ */ 
 
 #include <stdio.h>
 #include "clock.h"
