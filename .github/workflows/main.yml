@@ -38,7 +38,7 @@ jobs:
       uses: parasoft/run-cpptest-action@1.0.1
       # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
       with:
-        testConfig: 'builtin://MISRA C 2012'
+       # testConfig: 'builtin://MISRA C 2012'
         compilerConfig: 'gcc_7-64'
       #   reportFormat: xml,html,custom
       #   additionalParams:  '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
