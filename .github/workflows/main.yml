@@ -40,7 +40,7 @@ jobs:
       with:
         testConfig: 'builtin://MISRA C 2012'
         compilerConfig: 'gcc_7-64'
-        additionalParams: '-ls parasoft/cpptestcli.properties -showdetails'
+        additionalParams: '-ls parasoft/cpptestcli.properties -showdetails -publish'
       #   reportFormat: xml,html,custom
       #   additionalParams:  '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
 
