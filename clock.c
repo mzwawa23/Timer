@@ -12,10 +12,12 @@
  */
 void display_time()
 {
+    /* parasoft-begin-suppress MISRAC2012-RULE_21_10-a "ok with our policy" */
     char buf[BUF_SIZE];
     time_t the_time = time(NULL);
-    char *t = ctime(&the_time); /* parasoft-suppress MISRAC2012-RULE_21_10-a "ok with our policy" */
-    
+    char *t = ctime(&the_time); 
+    /* parasoft-end-suppress MISRAC2012-RULE_21_10-a "ok with our policy" */
+
     sprintf(buf, "\n\nCurrent Time and Date is %s\n\n", t);
     print_string(buf);
 }
