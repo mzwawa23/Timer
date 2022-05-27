@@ -1,0 +1,4 @@
+{
+    "cpptest.testConfiguration": "builtin://MISRA C 2012",
+    "cmake.configureOnOpen": true
+}
